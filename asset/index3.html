@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarty</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media-quary.css">
+    <link rel="stylesheet" href="libs/slider/css/owl.carousel.min.css">
+    <script src="libs/slider/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 " aria-label="Offcanvas navbar large ">
+        <div class="container-fluid px-0">
+            <a class="navbar-brand search-icon d-flex align-items-center justify-content-center" href="#"><img
+                    src="Images/seach icon.svg" alt="" class="img-fluid"></a>
+            <a href="" class="logo ms-2"><img src="images/logo.svg" alt="" class="w-100"></a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-bg-dark " tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 gap-3">
+                        <li class="nav-item dropdown"><a class="nav-link fw-semibold dropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">HOME</a>
+                            <ul class="dropdown-menu pt-lg-5 z-n1">
+                                <li><a class="dropdown-item fw-semibold" href="#">HOME SLIDER</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HOME VIDEO</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HOME IMAGE</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HOME COMBINED</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HOME CLASSIC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-semibold" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">ABOUT</a>
+                            <ul class="dropdown-menu pt-5 z-n1">
+                                <li><a class="dropdown-item fw-semibold" href="#">ABOUT US</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">ABOUT ME</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">ABOUT US CLASSIC</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">ABOUT ME CLASSIC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link fw-semibold" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">PORTFOLIO</a>
+                            <ul class="dropdown-menu pt-5 z-n1">
+                                <li><a class="dropdown-item fw-semibold" href="#">HALF MASONRY</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HALF MASONRY 2</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HALF GRID 1 COLUMN</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">HALF GRID 2 COLUMN</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">FULLSCREEN MASONRYY</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">FULLSCREEN MASONRYY 2</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">FULLSCREEN GRID 3 COLUMN</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">FULLSCREEN GRID 2 COLUMN</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">SINGLE WORK 1</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">SINGLE WORK 2</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-semibold " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                CONTACT
+                            </a>
+                            <ul class="dropdown-menu pt-5 z-n1">
+                                <li><a class="dropdown-item fw-semibold" href="#">CONTACT TYPE 1</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">CONTACT TYPE 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-semibold" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BLOG
+                            </a>
+                            <ul class="dropdown-menu pt-5 z-n1">
+                                <li><a class="dropdown-item fw-semibold" href="#">BLOG LIST</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">PUBLICATION</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex gap-lg-3 justify-content-center align-items-center">
+                <a href=""
+                    class="request-btn d-flex justify-content-center align-items-center text-decoration-none rounded-1 fw-bold custom-btn px-4 py-3">SEND
+                    REQUEST</a>
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                </button>
+                <button class="btn text-white border-0 shadow-none me-4" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                        class=" menucon fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid hero-section z-1">
+        <div class="row">
+            <div class="col-auto px-0 ">
+                <div class="left-side d-flex justify-content-between align-items-center flex-column py-4">
+                    <div class="home fw-medium py-4 "> HOME</div>
+                    <div class="left-buttom
+                 "><a href=""
+                            class="text-decoration-none fw-semibold fr-left d-flex justify-content-center align-items-center mx-auto">FR</a>
+                        <a href=""
+                            class="text-decoration-none fw-bold en-left d-flex justify-content-center align-items-center rounded-5 mx-auto ">EN</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col px-0 overflow-hidden">
+                <div class="main overflow-hidden position-relative">
+                    <!-- <div class="icon overflow-hidden"><img src="images/banner1.jpg" alt="" class="w-100 img-fluid">
+                    </div> -->
+                    <div class="image-content ">
+                        <div class="row ">
+                            <div class="col-12 img-heading fw-bolder d-flex">
+                                Architecture - <br> petrified music
+                            </div>
+                            <div class="mt-4 d-flex hr-line">
+                                <hr class="opacity-100 border-0 rounded-5">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-8 para mt-2 mx-lg-0 mx-md-0 mx-auto text-lg-start text-md-start text-center">Change is an opportunity! We want to lead people towards
+                                durable solutions and designs that enhance feelings of closeness, and hopefully,
+                                happiness.</div>
+                            <div class="col-12 img-btn d-flex gap-2 py-3">
+                               <div class="row">
+                                <div class="col-lg-auto"> <a href="" class="custom-btn text-decoration-none rounded-1 fw-bold d-flex justify-content-center align-items-center fw-bolder img-btn px-4 py-3">EXPLORE NOW<i class="fa-solid fa-arrow-right ms-2 "></i></a>
+                                    </div>
+                                    <div cl></div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- right-side-offcanvas -->
+    <div class="offcanvas offcanvas-end offcanvas-right " data-bs-scroll="true" tabindex="-1"
+        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-body p-5">
+            <div class="row side-bar gap-3">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto country title fw-semibold">COUNTRY</div>
+                        <div class="col d-flex justify-content-end country-name fw-semibold">Canada</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto country title fw-semibold">CITY</div>
+                        <div class="col d-flex justify-content-end country-name fw-semibold">Toronto</div>
+                    </div>
+
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto country title fw-semibold">STREET</div>
+                        <div class="col d-flex justify-content-end country-name fw-semibold">North Avenue 31B,</div>
+                    </div>
+
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto country title fw-semibold">EMAIL</div>
+                        <div class="col d-flex justify-content-end country-name fw-semibold"><a href=""
+                                class="text-decoration-none">quarty.inbox@mail.com</a></div>
+                    </div>
+
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto country title fw-semibold">PHONE</div>
+                        <div class="col d-flex justify-content-end country-name fw-semibold"><a href=""
+                                class="text-decoration-none">+9 3(049) 482 95 23</a></div>
+                    </div>
+
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row social-media">
+                <div class="col-12 text-uppercase title fw-bolder mb-4">we are Social</div>
+                <div class="col-12 d-flex gap-3"><a href="" class="text-decoration-none text-black "><i
+                            class="fa-brands fa-facebook-f border-1 border border-black d-flex justify-content-center align-items-center rounded-pill"></i></a>
+                    <a href="" class="text-decoration-none text-black "><i
+                            class="fa-brands fa-instagram border-1 border border-black d-flex justify-content-center align-items-center rounded-pill"></i></a>
+                    <a href="" class="text-decoration-none text-black "><i
+                            class="fa-brands fa-linkedin border-1 border border-black d-flex justify-content-center align-items-center rounded-pill"></i></a>
+                    <a href="" class="text-decoration-none text-black "><i
+                            class="fa-brands fa-whatsapp border-1 border border-black d-flex justify-content-center align-items-center rounded-pill"></i></a>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row instagram gy-2">
+                <div class="col-12 text-uppercase title fw-bolder mb-4">instagram</div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-1.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-2.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-3.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-4.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-5.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+                <div class="col-4"><a href="">
+                        <div class="side-bar-icon"><img src="images/side-bar-6.jpg" alt="" class="w-100 h-100"></div>
+                    </a></div>
+            </div>
+            <hr class="my-5">
+            <div class="row publications gy-2">
+                <div class="col-12 text-uppercase title fw-bolder mb-4">LATEST PUBLICATIONS</div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto"><a href="">
+                                <div class="sidebar-publication-img"><img src="images/banner1.jpg" alt=""
+                                        class="img-fluid h-100 w-100"></div>
+                            </a></div>
+                        <div class="col px-0">
+                            <a href="" class="text-decoration-none">
+                                <div class="title-2">Architecture of....</div>
+                            </a>
+                            <div class="para fw-medium">It seems to be human nature to enjoy a.....</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto"><a href="">
+                                <div class="sidebar-publication-img"><img src="images/side-bar-8.jpg" alt=""
+                                        class="img-fluid h-100 w-100"></div>
+                            </a></div>
+                        <div class="col px-0">
+                            <a href="" class="text-decoration-none">
+                                <div class="title-2">Model Making In....</div>
+                            </a>
+                            <div class="para fw-medium">The importance of model making in....</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-auto"><a href="">
+                                <div class="sidebar-publication-img"><img src="images/side-bar-7.jpg" alt=""
+                                        class="img-fluid h-100 w-100"></div>
+                            </a></div>
+                        <div class="col px-0">
+                            <a href="" class="text-decoration-none">
+                                <div class="title-2">Can Skyscrapers Be....</div>
+                            </a>
+                            <div class="para fw-medium">Lorem ipsum dolor sit amet, consectetur.....</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row subscribe gy-2">
+                <div class="col-12 text-uppercase title fw-bolder mb-4">SUBSCRIBE OUR NEWSLETTER</div>
+                <div class="input-group col-12 ">
+                    <input type="email" class="form-control fw-normal shadow-none py-2" placeholder="EMAIL"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text bg-black px-4 py-2 text-white" id="basic-addon2"><i
+                            class="fa-regular fa-paper-plane"></i></span>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="col-12 copyright fw-normal">© Late 2020 Quarty.</div>
+            <div class="col-12 copyright fw-normal">Design by: <a href="" class="text-decoration-none"> Nazar Miller</a>
+            </div>
+        </div>
+    </div>
+    <!-- search-bar offcanvas -->
+    <div class="collapse row" id="collapseExample">
+        <div class="card card-body border-0 col">
+            <input type="search" class="w-100 border-0 rounded-5 bg-secondary-subtle form-control shadow-none"
+                placeholder="Enter search query">
+        </div>
+    </div>
+    <script src="libs/slider/js/owl.carousel.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
